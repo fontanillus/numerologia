@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calcular número Mes Personal</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="img/favimespersonal.webp" type="image/x-icon">
+</head>
+
+<body>
+    <!--Se obtiene sumando año personal + mes en curso-->
+    <p>
+        <img src="./img/mespersonal.jpg" alt="foto">
+    </p>
+    <h1>Numerología - Calculo número Mes Personal</h1>
+    <label for="fechaNac">Fecha de nacimiento:</label>
+    <input id="fechaNac" type="date" required />
+    <button id="btnCalcular" onclick="calcularMesPersonal()">Calcular</button>
+    <div id="resultadoMesPersonal"></div>
+
+<br>
+  <div class="posicion">
+    <a href="index.html">← Volver a inicio</a>
+  </div>
+  <script src="./js/significados.js"></script>
+  <script src="./js/calculos.js"></script>
+  <script src="./js/get.js"></script>
+
+</body>
+
+</html>

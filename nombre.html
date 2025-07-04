@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es ">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcular Número del Nombre</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="shortcut icon" href="img/favinombre.webp" type="image/x-icon">
+</head>
+
+<body>
+  <p>
+    <img src="./img/nombre.jpg" alt="foto">
+  </p>
+  <h1>Numerología - Calcular numero del Nombre</h1>
+  <!--Suma de todas las letras del nombre completo, nombre de pila y apellidos-->
+  <div class="container">
+    <label for="nombreCompleto">Escribe tu nombre completo:</label>
+    <input id="nombreCompleto" type="text" placeholder="Nombre y apellidos" required>
+    <button type="button" onclick="calcularNumeroNombre()">Calcular</button>
+   <div id="resultado"></div>
+  </div>
+
+  <br>
+  <div class="posicion">
+    <a href="index.html">← Volver a inicio</a>
+  </div>
+
+ <script src="./js/significados.js"></script>
+ <script src="./js/calculos.js"></script>
+ <script src="./js/get.js"></script>
+
+  
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cálculo de Número Personal</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="img/favipersonal.webp" type="image/x-icon">
+</head>
+
+<body>
+    <p>
+        <img src="./img/personal.png" alt="foto">
+    </p>
+    <h1>Numerología - Calcular Número Personal</h1>
+    <!--reducir dia de nacimiento a un dígito-->
+    <div class="container">
+        <label for="fechaNac">Fecha de nacimiento:</label>
+        <input id="fechaNac" type="date" required />
+        <button type="button" onclick="procesarNumeroPersonal()">Calcular</button>
+        <div id="resultado"></div>
+        <div id="explicacion"></div>
+    </div>
+    <br>
+    <div class="posicion">
+    <a href="index.html">← Volver a inicio</a>
+    </div>
+    <script src="./js/significados.js"></script>
+    <script src="./js/calculos.js"></script>
+    <script src="./js/get.js"></script>
+
+
+</body>
+
+</html>

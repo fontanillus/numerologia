@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Numero Destino</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="shortcut icon" href="img/favidestino.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--Calcular el número de Destino. Se calcula sumando los dígitos de la fecha completa de nacimiento (día, mes y año) hasta obtener un solo dígito (o un número maestro como 11, 22)-->
+    <p>
+        <img src="./img/destino.jpg" alt="foto">
+    </p>
+    <h1>Numerología - Calcular Número Destino</h1>
+
+    <div class="container">
+        <label for="fechaNac">Fecha de nacimiento:</label>
+        <input id="fechaNac" type="date" required>
+        <button type="button" onclick="calcularNumeroDestino()">Calcular</button>
+        <div id="resultadoDestino"></div>
+    </div>
+    <br>
+    <div class="posicion">
+        <a href="index.html">← Volver a inicio</a>
+    </div>
+
+    <script src="./js/significados.js"></script>
+    <script src="./js/calculos.js"></script>
+    <script src="./js/get.js"></script>
+
+
+</body>
+
+</html>
