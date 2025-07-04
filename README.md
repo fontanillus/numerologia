@@ -1,0 +1,2 @@
+# numerologia
+Examen Numerologia JavaScript
